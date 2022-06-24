@@ -3,11 +3,11 @@
 :root {
   --font-family: 'Poppins', sans-serif;
 
-  --gradient2: linear-gradient(89.97deg, #EB1484 1.84%, #c81cc5 102.67%);
-  --primary-btn: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+  --gradient2: linear-gradient(89.97deg, #ca1111 1.84%, #88061c 102.67%);
+  --primary-btn: linear-gradient(101.12deg, #ca1111 27.35%, #88061c 99.99%, #c81c1c 100%, #c81c1c 100%);
   
-  --primary-color: #EB1484;
-  --secondary-color: #c81cc5;
+  --primary-color: #ca1111;
+  --secondary-color: #88061c;
 
   --color-bg: #24252d;
   --color-card : #2A2D3A;

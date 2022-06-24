@@ -29,7 +29,7 @@ const Menu = () => (
         <div className="navbar-links_logo">
           <img src={logo} alt="logo" />
           <Link to="/"> 
-            <h1>CryptoKet</h1>
+            <h1>EmiratesNFT</h1>
           </Link>
         </div>
         <div className="navbar-links_container">
