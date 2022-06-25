@@ -87,7 +87,7 @@ const Header = () => {
                 <img src={seller1} alt="" />
                 <img src={verify} className='verify' alt="" />
               </div>
-              <Link to={`/profile/Rian`}>
+              <Link to={`/profile/james`} state={{name:"James Bond", sellerimg:seller1}}>
               <p className='slider-card-name'>James Bond</p>
               </Link>
               <p className='slider-card-price'>5.250 <span>ETH</span></p>
@@ -98,7 +98,7 @@ const Header = () => {
                 <img src={seller2} alt="" />
                 <img src={verify} className='verify' alt="" />
               </div>
-              <Link to={`/profile/Rian`}>
+              <Link to={`/profile/rian`} state={{name:"Rian Leon", sellerimg:seller2}}>
               <p className='slider-card-name'>Rian Leon</p>
               </Link>
               <p className='slider-card-price'>4.932 <span>ETH</span></p>
@@ -109,7 +109,7 @@ const Header = () => {
                 <img src={seller3} alt="" />
                 <img src={verify} className='verify' alt="" />
               </div>
-              <Link to={`/profile/Rian`}>
+              <Link to={`/profile/ladyyoung`} state={{name:"Lady Young", sellerimg:seller3}}>
               <p className='slider-card-name'>Lady Young</p>
               </Link>
               <p className='slider-card-price'>4.620 <span>ETH</span></p>
@@ -120,7 +120,7 @@ const Header = () => {
                 <img src={seller4} alt="" />
                 <img src={verify} className='verify' alt="" />
               </div>
-              <Link to={`/profile/Rian`}>
+              <Link to={`/profile/blackglass`} state={{name:"Black Glass", sellerimg:seller4}}>
               <p className='slider-card-name'>Black Glass</p>
               </Link>
               <p className='slider-card-price'>4.125 <span>ETH</span></p>
@@ -131,7 +131,7 @@ const Header = () => {
                 <img src={seller5} alt="" />
                 <img src={verify} className='verify' alt="" />
               </div>
-              <Link to={`/profile/Rian`}>
+              <Link to={`/profile/budhiman`} state={{name:"Budhiman", sellerimg:seller5}}>
               <p className='slider-card-name'>Budhiman</p>
               </Link>
               <p className='slider-card-price'>3.921 <span>ETH</span></p>
@@ -142,7 +142,7 @@ const Header = () => {
                 <img src={seller6} alt="" />
                 <img src={verify} className='verify' alt="" />
               </div>
-              <Link to={`/profile/Rian`}>
+              <Link to={`/profile/alex`} state={{name:"Alex", sellerimg:seller6}}>
               <p className='slider-card-name'>Alex</p>
               </Link>
               <p className='slider-card-price'>3.548 <span>ETH</span></p>
